@@ -48,7 +48,7 @@ set expandtab       " expand tab to spaces so that tabs are spaces
 " Set matching pairs of characters and highlight matching brackets
 set matchpairs+=<:>,「:」,『:』,【:】,“:”,‘:’,《:》
 
-set number relativenumber  " Show line number and relative line number
+" set number relativenumber  " Show line number and relative line number
 
 " Ignore case in general, but become case-sensitive when uppercase is present
 set ignorecase smartcase
@@ -66,7 +66,7 @@ set showbreak=↪
 set wildmode=list:longest
 
 " Minimum lines to keep above and below cursor when scrolling
-set scrolloff=3
+set scrolloff=5
 
 " Use mouse to select and resize windows, etc.
 set mouse=nic  " Enable mouse in several mode
